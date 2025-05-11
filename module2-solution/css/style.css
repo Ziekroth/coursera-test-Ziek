@@ -1,0 +1,68 @@
+@media (min-width: 992px) {
+	.desktopView
+	{
+		box-sizing: border-box;
+		float: left;
+	}
+	.desktopView{width: 33.33%}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.tabletView01, .tabletView02
+	{
+		box-sizing: border-box;
+		float: left;
+	}
+	.tabletView01{width: 50%}
+	.tabletView02{width: 100%}
+}
+@media (max-width: 767px){
+	.mobileView
+	{
+		box-sizing: border-box;
+		float: left;
+	}
+	.mobileView{width: 100%}
+}
+
+body{
+	margin: 10px;
+}
+h1{
+	text-align: center;
+	font-family: sans-serif;
+}
+section > div{
+	font-family: Arial;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+	position: relative;
+	border: 1px solid black;
+	background-color: yellow;
+	height: 230px;
+	overflow: hidden;
+}
+p{
+	font-weight: bold;
+	float: right;
+	width: 150px;
+	background-color: skyblue;
+	margin: 0px;
+	padding: 10px;
+	border: 1px solid black;
+    text-align: center;
+    right: 100px;
+}
+div > div{
+	float: right;
+	padding: 10px;
+}
+#sectionHTML{
+	background-color: red;
+}
+#sectionCSS{
+	background-color: green;
+}
+#sectionJS{
+	background-color: blue;
+}
